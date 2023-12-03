@@ -1,0 +1,99 @@
+@import url('reset.css');
+
+
+.container{
+    width: 1200px;
+    margin: 16 auto;
+    padding: 50px 0;
+    background: bisque;
+
+}
+.first {
+    font-size: 0;
+}
+
+.first > div {
+background: yellow;
+outline: 2px solid red;
+width: 400px;
+height: 400px;
+display: inline-block;
+font-size: 16px;
+}
+.second {
+font-size: 0;
+outline: 2px solid red;
+}
+.second > div {
+display: inline-block;
+font-size: 16px;
+vertical-align: top;
+   
+}
+
+.one{
+    vertical-align: top;
+    font-size: 16px;
+    width: 800px;
+    height: 200px;
+    outline:  2px solid red;
+}
+.one > div {
+    height: 200px;
+    outline: 2px solid red;
+    background: greenyellow;
+}
+.second-one {
+background: fuchsia;
+outline: 2px solid red;
+width: 400px;
+font-size: 16px;
+
+}
+.second-one > div{
+    outline: 2px solid red;
+    height:133px;
+}
+.footer {
+    font-size: 0;
+}
+.footer > div {
+background: darkcyan;
+outline: 2px solid red;
+width: 400px;
+height: 400px;
+display: inline-block;
+font-size: 16px;
+vertical-align: top;
+}
+.footer > .tree {
+width: 800px;
+
+}
+.tree {
+    width: 800px;
+
+}
+.four{
+    height: 200px;
+    outline: 2px solid red;
+}
+.five {
+    
+font-size: 0;
+}
+.five div {
+    background: darkorange;
+    outline: 2px solid red;
+}
+.five > div {
+    display: inline-block;
+    font-size: 16px;
+    width: 400px;
+    height: 200px;
+    vertical-align: top;
+}
+.five > div > div {
+    background: khaki;
+    height: 100px;
+}
