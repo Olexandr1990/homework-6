@@ -13,7 +13,7 @@
 }
 
 .float-first > div {
-background: yellow;
+background: green;
 outline: 2px solid red;
 width: 400px;
 height: 400px;
@@ -44,10 +44,10 @@ vertical-align: top;
 .one > div {
     height: 200px;
     outline: 2px solid red;
-    background: greenyellow;
+    background: salmon;
 }
 .second-one {
-background: fuchsia;
+background: aqua;
 outline: 2px solid red;
 width: 400px;
 font-size: 16px;
@@ -61,7 +61,7 @@ font-size: 16px;
     font-size: 0;
 }
 .float-footer > div {
-background: darkcyan;
+background: orangered;
 outline: 2px solid red;
 width: 400px;
 height: 400px;
@@ -86,7 +86,7 @@ width: 800px;
 font-size: 0;
 }
 .five div {
-    background: darkorange;
+    background: navy;
     outline: 2px solid red;
 }
 .five > div {
@@ -97,6 +97,6 @@ font-size: 0;
     vertical-align: top;
 }
 .five > div > div {
-    background: khaki;
+    background: mediumpurple;
     height: 100px;
 }
