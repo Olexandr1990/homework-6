@@ -1,31 +1,34 @@
 @import url('reset.css');
 
 
-.container{
+.float-container{
     width: 1200px;
-    margin: 16 auto;
-    padding: 50px 0;
+    margin: 0 auto;
+    padding: 40px 0;
     background: bisque;
 
 }
-.first {
+.float-first {
     font-size: 0;
 }
 
-.first > div {
+.float-first > div {
 background: yellow;
 outline: 2px solid red;
 width: 400px;
 height: 400px;
-display: inline-block;
+float: left;
 font-size: 16px;
 }
-.second {
+.clr {
+clear: both;
+}
+.float-second {
 font-size: 0;
 outline: 2px solid red;
 }
-.second > div {
-display: inline-block;
+.float-second > div {
+float: left;
 font-size: 16px;
 vertical-align: top;
    
@@ -54,19 +57,19 @@ font-size: 16px;
     outline: 2px solid red;
     height:133px;
 }
-.footer {
+.float-footer {
     font-size: 0;
 }
-.footer > div {
+.float-footer > div {
 background: darkcyan;
 outline: 2px solid red;
 width: 400px;
 height: 400px;
-display: inline-block;
+float: left;
 font-size: 16px;
 vertical-align: top;
 }
-.footer > .tree {
+.float-footer > .tree {
 width: 800px;
 
 }
@@ -87,7 +90,7 @@ font-size: 0;
     outline: 2px solid red;
 }
 .five > div {
-    display: inline-block;
+    float: left;
     font-size: 16px;
     width: 400px;
     height: 200px;
