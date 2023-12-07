@@ -120,18 +120,16 @@ height: 400px;
 background: rgba(66, 66, 66, 1);
 }
 .containar_div2{
-
 font-size: 20px;
 text-align: center;
 }
 .containar_img{
-
 font-size: 20px;
 text-align: center;
 }
 
 .Feature {
-    font-size: 0;
+font-size: 0;
 text-align: center;
 width: 1440px;
 background: rgba(66, 66, 66, 0.4);
